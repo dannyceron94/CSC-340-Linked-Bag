@@ -108,7 +108,6 @@ ItemType LinkedBag<ItemType> :: removeRandom340()
 	ItemType var = temp[random_number];//we can just use the righside in the revome
 	//temp.erase(random_number);//erases randomnumber from the vector.
 	remove(var);
-	itemCount--;
 	return var ;
 }
 
